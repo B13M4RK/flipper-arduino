@@ -2,10 +2,10 @@
 
 void setup() {
   Serial.begin(9600);
-  pinMode(A15, INPUT);
+  pinMode(A10, INPUT);
 }
 
 void loop() {
-  int valueA15 = analogRead(A15);
-  Serial.println(valueA15);
+  int valueA10 = analogRead(A10);
+  Serial.println(valueA10);
 }
